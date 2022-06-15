@@ -24,7 +24,7 @@ After that the file structure and code can be followed as uploaded.
 NOTE:change the mysql root password in the js file according to yours.
 
 MYSQL DATABASE TO BE CREATED IN MYQSL COMMAND LINE(or other appropriate framework):
-
+'''
 CREATE DATABASE IF NOT EXISTS `loginapp` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `loginapp`;
 
@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 INSERT INTO users VALUES ('Muskan','muskan@gmail.com');
+
+'''
 
 After this code can be run using "node login.js" in terminal
 and run on localhost 3000 in your browser.
